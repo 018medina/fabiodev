@@ -88,8 +88,16 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <span className="inline-block rounded-full border border-brand-primary/40 px-3 py-1 text-xs tracking-wide text-brand-primary">
-              +3 anos entregando tecnologia
+              +3 anos trabalhando em tecnologia
             </span>
+
+            <p className="text-brand-primary teste">
+              Deve aparecer azul da marca
+            </p>
+            <div className="bg-brand-primary text-white p-3 rounded-lg">
+              BG azul brand
+            </div>
+
             <h1 className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight">
               Sites que <span className="text-brand-primary">convertem</span> e
               sistemas que resolvem problemas{" "}
